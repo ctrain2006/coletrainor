@@ -9,6 +9,6 @@ print("Right now, I’m focused on building my technical foundation in full-stac
 "I can learn from people with more experience than me.")
 
 print("I’m always interested in connecting with people working in AI, technology, startups, venture\n"
-capital,and related fields.")
+"capital, and related fields.")
 
 print("Please feel free to reach out to me on LinkedIn or by email at ctrainor30@jcu.edu.")
