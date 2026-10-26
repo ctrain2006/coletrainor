@@ -10,8 +10,8 @@ TAGLINE = "CS + Economics @ John Carroll University"
 PARAGRAPHS = [
     (
         "Hi! I’m a freshman at John Carroll University double-majoring in "
-        "Computer Science and Economics. I am researching under Doctor "
-        'Essa in the <a href="https://essa78.github.io/al-ai-lab/">AI Research Lab</a>. '
+        'Computer Science and Economics. I am researching under <a href="https://www.jcu.edu/people/almabrok-essa">Doctor '
+        'Essa</a> in the <a href="https://essa78.github.io/al-ai-lab/">AI Research Lab</a>. '
         "We have partnered with the Education department and have been "
         "developing an interactive environment for Education majors. "
         "This simulation bridges the gap between a lack of experience "
