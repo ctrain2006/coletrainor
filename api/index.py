@@ -11,7 +11,7 @@ PARAGRAPHS = [
     (
         "Hi! I’m a freshman at John Carroll University double-majoring in "
         "Computer Science and Economics. I am researching under Doctor "
-        "Essa in the AI Lab (https://essa78.github.io/al-ai-lab/). "
+        'Essa in the <a href="https://essa78.github.io/al-ai-lab/">AI Research Lab</a>. '
         "We have partnered with the Education department and have been "
         "developing an interactive environment for Education majors. "
         "This simulation bridges the gap between a lack of experience "
@@ -76,6 +76,7 @@ TEMPLATE = """<!doctype html>
     margin: 0 0 36px;
   }
   p { margin: 0 0 20px; }
+  p a { color: var(--accent); }
   .links {
     margin-top: 36px;
     padding-top: 24px;
@@ -97,7 +98,7 @@ TEMPLATE = """<!doctype html>
   <h1>{{ name }}</h1>
   <p class="tagline">{{ tagline }}</p>
   {% for paragraph in paragraphs %}
-  <p>{{ paragraph }}</p>
+  <p>{{ paragraph | safe }}</p>
   {% endfor %}
   <nav class="links">
     {% for label, url in links %}
