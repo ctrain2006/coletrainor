@@ -10,21 +10,14 @@ TAGLINE = "CS + Economics @ John Carroll University"
 PARAGRAPHS = [
     (
         "Hi! I’m a freshman at John Carroll University double-majoring in "
-        "Computer Science and Economics, with a growing interest in business "
-        "development, artificial intelligence, startups, and entrepreneurship "
-        "as a whole."
-    ),
-    (
-        "Right now, I’m focused on building my technical foundation in "
-        "full-stack programming and AI while actively learning from "
-        "entrepreneurs, investors, researchers, and professionals working in "
-        "the field. I enjoy taking on projects, solving problems, and putting "
-        "myself in environments where I can learn from people with more "
-        "experience than me."
-    ),
-    (
-        "I’m always interested in connecting with people working in AI, "
-        "technology, startups, venture capital, and related fields."
+        "Computer Science and Economics. I am researching under Doctor "
+        "Essa in the AI Lab (https://essa78.github.io/al-ai-lab/). "
+        "We have partnered with the Education department and have been "
+        "developing an interactive environment for Education majors. "
+        "This simulation bridges the gap between a lack of experience "
+        "after higher education and jumping into the workforce. It acts "
+        "as a conversational simulation between the user and a personified "
+        "agent."
     ),
 ]
 
